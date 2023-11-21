@@ -45,8 +45,8 @@ import (
 
 // TODO: Reconsider the use of global variables
 var QuicVersion uint32 = 0xff00001b // See https://tools.ietf.org/html/draft-ietf-quic-transport-08#section-4
-var QuicALPNToken = "hq-27"         // See https://www.ietf.org/mail-archive/web/quic/current/msg01882.html
-var QuicH3ALPNToken = "h3-27"       // See https://tools.ietf.org/html/draft-ietf-quic-http-17#section-2.1
+var QuicALPNToken = "hq"         // See https://www.ietf.org/mail-archive/web/quic/current/msg01882.html
+var QuicH3ALPNToken = "h3"       // See https://tools.ietf.org/html/draft-ietf-quic-http-17#section-2.1
 
 const (
 	MinimumInitialLength   = 1252
